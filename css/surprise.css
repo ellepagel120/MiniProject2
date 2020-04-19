@@ -1,0 +1,37 @@
+.shape1 {
+	width: 200px;
+	height: 60px;
+	background: red;
+	border-radius: 10px;
+	position: absolute;
+	left: 500px;
+	top: 500px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	line-height: 2.3em;
+	text-align: center;
+	color: white;
+}
+
+.animate {
+	animation: change 2s forwards;
+}
+
+@keyframes change {
+	0%  { left: 500px; width: 200px; height: 80px; border-radius: 10px; }
+	90% { left: 550px; width: 100px; height: 100px; border-radius: 100px; } 
+	100% { left: 250px; width: 500px; height: 500px; border-radius: 100px; }
+}
+
+.click{
+	width: 200px;
+	height: 60px;
+	background: red;
+	border-radius: 10px;
+	position: absolute;
+	left: 500px;
+	top: 500px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	text-align: center;
+}
